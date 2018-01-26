@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 keepSpecialComments: 0,
                 sourceMap: true
             },
-            target: {
+            rebaseTo: {
                 files: [{
                     expand: true,
                     cwd: './src/_build',
@@ -66,7 +66,10 @@ module.exports = function (grunt) {
                 files: './src/sass/**/*.{scss,sass}',
                 tasks: 'sass'
             },
-
+            cssmin: {
+                files: './src/_build/**/*.css',
+                tasks: 'cssmin'
+            },
             js: {
                 files: './src/js/**/*.js',
                 tasks: [
