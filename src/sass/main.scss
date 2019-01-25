@@ -7,7 +7,12 @@ body {
 
 .myClass {
     color: blue;
+    height: 3000px;
+    background-color: #f4f4f4;
     .anotherClass {
         color: green;
+        height: 2000px;
+        background-color:lightcoral;
+        width: 50%;
     }
 }
