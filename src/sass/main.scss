@@ -1,0 +1,18 @@
+//@import 'imports/Reset_css_2';
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.myClass {
+    color: blue;
+    height: 3000px;
+    background-color: #f4f4f4;
+    .anotherClass {
+        color: green;
+        height: 2000px;
+        background-color:lightcoral;
+        width: 50%;
+    }
+}
